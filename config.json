@@ -48,7 +48,7 @@
     "start_url": "https://nodev2ray.com",
     "up_date": "2025-01-21",
     "selector": ".item-heading.pb-2 a",
-    "pattern": "https://nodev2ray.com/uploads/[^<>\\r\\n]+"
+    "pattern": "https://node.nodev2ray.com/uploads/[^<>\\r\\n]+"
   },
   "nodefree": {
     "start_url": "https://nodefree.org",
