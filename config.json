@@ -1,7 +1,7 @@
 {
   "clashmeta": {
     "start_url": "https://clash-meta.github.io/",
-    "up_date": "2025-02-01",
+    "up_date": "2025-02-23",
     "selector": "a[class='xcblog-blog-url']",
     "pattern": "https://clash-meta.github.io/uploads/[^<>\\r\\n]+"
   },
@@ -13,7 +13,7 @@
   },
   "nodev2ray": {
     "start_url": "https://nodev2ray.com",
-    "up_date": "2025-02-22",
+    "up_date": "2025-02-24",
     "selector": ".item-heading.pb-2 a",
     "pattern": "https://node.nodev2ray.com/uploads/[^<>\\r\\n]+"
   },
