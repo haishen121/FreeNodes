@@ -1,4 +1,4 @@
-2025-02-24 21:38:59 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2025-02-24 22:41:12 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
@@ -12,124 +12,124 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2025-02-24 21:38:59 [scrapy.middleware] INFO: Enabled spider middlewares:
+2025-02-24 22:41:12 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2025-02-24 21:38:59 [scrapy.middleware] INFO: Enabled item pipelines:
+2025-02-24 22:41:12 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2025-02-24 21:38:59 [scrapy.core.engine] INFO: Spider opened
-2025-02-24 21:38:59 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-02-24 21:38:59 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2025-02-24 21:38:59 [simple] INFO: clashmeta start
-2025-02-24 21:38:59 [simple] INFO: ndnode start
-2025-02-24 21:38:59 [simple] INFO: nodev2ray start
-2025-02-24 21:38:59 [simple] INFO: nodefree start
-2025-02-24 21:38:59 [simple] INFO: v2rayshare start
-2025-02-24 21:38:59 [simple] INFO: wenode start
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-23-clash-meta-github.htm on 2025-02-23
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-23-clash-meta-github.htm on 2025-02-23
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-22-free-subscribe-node.htm on 2025-02-22
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-22-free-subscribe-node.htm on 2025-02-22
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-21-node-share-links.htm on 2025-02-21
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-21-node-share-links.htm on 2025-02-21
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-20-clash-meta-github.htm on 2025-02-20
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-20-clash-meta-github.htm on 2025-02-20
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-19-clash-meta-github.htm on 2025-02-19
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-19-clash-meta-github.htm on 2025-02-19
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-18-free-clash-meta-node.htm on 2025-02-18
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-18-free-clash-meta-node.htm on 2025-02-18
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-17-today-clash-meta-node.htm on 2025-02-17
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-17-today-clash-meta-node.htm on 2025-02-17
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-16-clash-meta-github.htm on 2025-02-16
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-16-clash-meta-github.htm on 2025-02-16
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-15-clash-meta-windows.htm on 2025-02-15
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-15-clash-meta-windows.htm on 2025-02-15
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-14-free-node-subscribe.htm on 2025-02-14
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-14-free-node-subscribe.htm on 2025-02-14
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-13-clash-meta-windows.htm on 2025-02-13
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-13-clash-meta-windows.htm on 2025-02-13
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-12-clash-meta-node-github.htm on 2025-02-12
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-12-clash-meta-node-github.htm on 2025-02-12
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-11-clash-meta-windows.htm on 2025-02-11
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-11-clash-meta-windows.htm on 2025-02-11
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-10-free-clash-meta-node.htm on 2025-02-10
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-10-free-clash-meta-node.htm on 2025-02-10
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-9-free-clash-meta-node.htm on 2025-02-09
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-9-free-clash-meta-node.htm on 2025-02-09
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-8-free-subscribe-node.htm on 2025-02-08
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-8-free-subscribe-node.htm on 2025-02-08
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-7-node-share-links.htm on 2025-02-07
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-7-node-share-links.htm on 2025-02-07
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-6-clash-meta-node-share.htm on 2025-02-06
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-6-clash-meta-node-share.htm on 2025-02-06
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-5-clash-meta-node-github.htm on 2025-02-05
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-5-clash-meta-node-github.htm on 2025-02-05
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-4-free-high-speed-nodes.htm on 2025-02-04
-2025-02-24 21:38:59 [simple] INFO: clashmeta found /free-nodes/2025-2-4-free-high-speed-nodes.htm on 2025-02-04
-2025-02-24 21:38:59 [simple] INFO: clashmeta is up to date, exiting
-2025-02-24 21:38:59 [simple] INFO: clashmeta is up to date, exiting
-2025-02-24 21:38:59 [simple] INFO: clashmeta is up to date, exiting
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-25-node-share.htm on 2025-02-25
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-24-free-subscribe-node.htm on 2025-02-24
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-23-shadowrocket-node.htm on 2025-02-23
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-22-free-clash-subscribe.htm on 2025-02-22
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-21-v2ray-windows.htm on 2025-02-21
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-20-free-shadowrocket-node.htm on 2025-02-20
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-19-free-high-speed-nodes.htm on 2025-02-19
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-18-free-clash.htm on 2025-02-18
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-17-free-ssr-node.htm on 2025-02-17
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-16-v2ray-node.htm on 2025-02-16
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-15-free-v2ray.htm on 2025-02-15
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-14-free-subscribe-node.htm on 2025-02-14
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-13-node-share.htm on 2025-02-13
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-12-free-shadowrocket-node.htm on 2025-02-12
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-11-free-clash.htm on 2025-02-11
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-10-free-node-subscribe-links.htm on 2025-02-10
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-9-v2ray-windows.htm on 2025-02-09
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-8-free-node-subscribe-links.htm on 2025-02-08
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-7-free-clash.htm on 2025-02-07
-2025-02-24 21:38:59 [simple] INFO: nodev2ray found /free-node/2025-2-6-free-clash.htm on 2025-02-06
-2025-02-24 21:38:59 [simple] INFO: nodev2ray is up to date, exiting
-2025-02-24 21:38:59 [simple] INFO: nodev2ray is up to date, exiting
-2025-02-24 21:38:59 [simple] INFO: nodev2ray is up to date, exiting
-2025-02-24 21:38:59 [simple] INFO: wenode found https://wenode.cc/a/2625.html on 2025-02-24
-2025-02-24 21:38:59 [simple] INFO: wenode found https://wenode.cc/a/2626.html on 2025-02-23
-2025-02-24 21:38:59 [simple] INFO: wenode found https://wenode.cc/a/2627.html on 2025-02-22
-2025-02-24 21:38:59 [simple] INFO: wenode found https://wenode.cc/a/2628.html on 2025-02-21
-2025-02-24 21:38:59 [simple] INFO: wenode found https://wenode.cc/a/2629.html on 2025-02-20
-2025-02-24 21:38:59 [simple] INFO: wenode found https://wenode.cc/a/2630.html on 2025-02-19
-2025-02-24 21:38:59 [simple] INFO: wenode found https://wenode.cc/a/2631.html on 2025-02-18
-2025-02-24 21:38:59 [simple] INFO: wenode found https://wenode.cc/a/2632.html on 2025-02-17
-2025-02-24 21:38:59 [simple] INFO: wenode found https://wenode.cc/a/2633.html on 2025-02-16
-2025-02-24 21:38:59 [simple] INFO: wenode found https://wenode.cc/a/2634.html on 2025-02-15
-2025-02-24 21:38:59 [simple] INFO: wenode is up to date, exiting
-2025-02-24 21:38:59 [simple] INFO: wenode is up to date, exiting
-2025-02-24 21:38:59 [simple] INFO: wenode is up to date, exiting
-2025-02-24 21:39:00 [scrapy.core.engine] INFO: Closing spider (finished)
-2025-02-24 21:39:00 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 1811,
+2025-02-24 22:41:12 [scrapy.core.engine] INFO: Spider opened
+2025-02-24 22:41:12 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-02-24 22:41:12 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-02-24 22:41:12 [simple] INFO: clashmeta start
+2025-02-24 22:41:12 [simple] INFO: ndnode start
+2025-02-24 22:41:12 [simple] INFO: nodev2ray start
+2025-02-24 22:41:12 [simple] INFO: nodefree start
+2025-02-24 22:41:12 [simple] INFO: v2rayshare start
+2025-02-24 22:41:12 [simple] INFO: wenode start
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-23-clash-meta-github.htm on 2025-02-23
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-23-clash-meta-github.htm on 2025-02-23
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-22-free-subscribe-node.htm on 2025-02-22
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-22-free-subscribe-node.htm on 2025-02-22
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-21-node-share-links.htm on 2025-02-21
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-21-node-share-links.htm on 2025-02-21
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-20-clash-meta-github.htm on 2025-02-20
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-20-clash-meta-github.htm on 2025-02-20
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-19-clash-meta-github.htm on 2025-02-19
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-19-clash-meta-github.htm on 2025-02-19
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-18-free-clash-meta-node.htm on 2025-02-18
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-18-free-clash-meta-node.htm on 2025-02-18
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-17-today-clash-meta-node.htm on 2025-02-17
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-17-today-clash-meta-node.htm on 2025-02-17
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-16-clash-meta-github.htm on 2025-02-16
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-16-clash-meta-github.htm on 2025-02-16
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-15-clash-meta-windows.htm on 2025-02-15
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-15-clash-meta-windows.htm on 2025-02-15
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-14-free-node-subscribe.htm on 2025-02-14
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-14-free-node-subscribe.htm on 2025-02-14
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-13-clash-meta-windows.htm on 2025-02-13
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-13-clash-meta-windows.htm on 2025-02-13
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-12-clash-meta-node-github.htm on 2025-02-12
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-12-clash-meta-node-github.htm on 2025-02-12
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-11-clash-meta-windows.htm on 2025-02-11
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-11-clash-meta-windows.htm on 2025-02-11
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-10-free-clash-meta-node.htm on 2025-02-10
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-10-free-clash-meta-node.htm on 2025-02-10
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-9-free-clash-meta-node.htm on 2025-02-09
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-9-free-clash-meta-node.htm on 2025-02-09
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-8-free-subscribe-node.htm on 2025-02-08
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-8-free-subscribe-node.htm on 2025-02-08
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-7-node-share-links.htm on 2025-02-07
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-7-node-share-links.htm on 2025-02-07
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-6-clash-meta-node-share.htm on 2025-02-06
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-6-clash-meta-node-share.htm on 2025-02-06
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-5-clash-meta-node-github.htm on 2025-02-05
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-5-clash-meta-node-github.htm on 2025-02-05
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-4-free-high-speed-nodes.htm on 2025-02-04
+2025-02-24 22:41:12 [simple] INFO: clashmeta found /free-nodes/2025-2-4-free-high-speed-nodes.htm on 2025-02-04
+2025-02-24 22:41:12 [simple] INFO: clashmeta is up to date, exiting
+2025-02-24 22:41:12 [simple] INFO: clashmeta is up to date, exiting
+2025-02-24 22:41:12 [simple] INFO: clashmeta is up to date, exiting
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-25-node-share.htm on 2025-02-25
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-24-free-subscribe-node.htm on 2025-02-24
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-23-shadowrocket-node.htm on 2025-02-23
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-22-free-clash-subscribe.htm on 2025-02-22
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-21-v2ray-windows.htm on 2025-02-21
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-20-free-shadowrocket-node.htm on 2025-02-20
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-19-free-high-speed-nodes.htm on 2025-02-19
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-18-free-clash.htm on 2025-02-18
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-17-free-ssr-node.htm on 2025-02-17
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-16-v2ray-node.htm on 2025-02-16
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-15-free-v2ray.htm on 2025-02-15
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-14-free-subscribe-node.htm on 2025-02-14
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-13-node-share.htm on 2025-02-13
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-12-free-shadowrocket-node.htm on 2025-02-12
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-11-free-clash.htm on 2025-02-11
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-10-free-node-subscribe-links.htm on 2025-02-10
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-9-v2ray-windows.htm on 2025-02-09
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-8-free-node-subscribe-links.htm on 2025-02-08
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-7-free-clash.htm on 2025-02-07
+2025-02-24 22:41:12 [simple] INFO: nodev2ray found /free-node/2025-2-6-free-clash.htm on 2025-02-06
+2025-02-24 22:41:12 [simple] INFO: nodev2ray is up to date, exiting
+2025-02-24 22:41:12 [simple] INFO: nodev2ray is up to date, exiting
+2025-02-24 22:41:12 [simple] INFO: nodev2ray is up to date, exiting
+2025-02-24 22:41:12 [simple] INFO: wenode found https://wenode.cc/a/2625.html on 2025-02-24
+2025-02-24 22:41:12 [simple] INFO: wenode found https://wenode.cc/a/2626.html on 2025-02-23
+2025-02-24 22:41:12 [simple] INFO: wenode found https://wenode.cc/a/2627.html on 2025-02-22
+2025-02-24 22:41:12 [simple] INFO: wenode found https://wenode.cc/a/2628.html on 2025-02-21
+2025-02-24 22:41:12 [simple] INFO: wenode found https://wenode.cc/a/2629.html on 2025-02-20
+2025-02-24 22:41:12 [simple] INFO: wenode found https://wenode.cc/a/2630.html on 2025-02-19
+2025-02-24 22:41:12 [simple] INFO: wenode found https://wenode.cc/a/2631.html on 2025-02-18
+2025-02-24 22:41:12 [simple] INFO: wenode found https://wenode.cc/a/2632.html on 2025-02-17
+2025-02-24 22:41:12 [simple] INFO: wenode found https://wenode.cc/a/2633.html on 2025-02-16
+2025-02-24 22:41:12 [simple] INFO: wenode found https://wenode.cc/a/2634.html on 2025-02-15
+2025-02-24 22:41:12 [simple] INFO: wenode is up to date, exiting
+2025-02-24 22:41:12 [simple] INFO: wenode is up to date, exiting
+2025-02-24 22:41:12 [simple] INFO: wenode is up to date, exiting
+2025-02-24 22:41:13 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-02-24 22:41:13 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1832,
  'downloader/request_count': 6,
  'downloader/request_method_count/GET': 6,
- 'downloader/response_bytes': 37625,
+ 'downloader/response_bytes': 37685,
  'downloader/response_count': 6,
  'downloader/response_status_count/200': 6,
- 'elapsed_time_seconds': 0.928893,
+ 'elapsed_time_seconds': 1.134721,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2025, 2, 24, 21, 39, 0, 255433, tzinfo=datetime.timezone.utc),
- 'httpcompression/response_bytes': 255428,
+ 'finish_time': datetime.datetime(2025, 2, 24, 22, 41, 13, 345902, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 255429,
  'httpcompression/response_count': 6,
  'items_per_minute': None,
  'log_count/INFO': 95,
  'log_count/WARNING': 1,
- 'memusage/max': 90988544,
- 'memusage/startup': 90988544,
+ 'memusage/max': 91701248,
+ 'memusage/startup': 91701248,
  'response_received_count': 6,
  'responses_per_minute': None,
  'scheduler/dequeued': 6,
  'scheduler/dequeued/memory': 6,
  'scheduler/enqueued': 6,
  'scheduler/enqueued/memory': 6,
- 'start_time': datetime.datetime(2025, 2, 24, 21, 38, 59, 326540, tzinfo=datetime.timezone.utc)}
-2025-02-24 21:39:00 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'start_time': datetime.datetime(2025, 2, 24, 22, 41, 12, 211181, tzinfo=datetime.timezone.utc)}
+2025-02-24 22:41:13 [scrapy.core.engine] INFO: Spider closed (finished)
