@@ -27,7 +27,9 @@ class SimpleSpider(scrapy.Spider):
 
     def _find_link(self, name: str, text: str):
         """Find links in text and yield them with their extension."""
+        self.logger.info(f"{name} _find_link()")
         for link in re.findall(self.configs[name]["pattern"], text):
+            self.logger.info(f"{name} _find_link: {link}")
             _, ext = os.path.splitext(link.strip())
             if ext not in (".txt", ".yaml"):
                 self.logger.warning(f"{name} could not parse {link}, skipping")
@@ -38,6 +40,7 @@ class SimpleSpider(scrapy.Spider):
     def _parse_tag(self, name: str, tag: scrapy.Selector) -> tuple[str, dt.date]:
         """Parse tag and yield link and date."""
         link = tag.attrib.get("href", "")
+        self.logger.info(f"{name} _parse_tag {link}")
         date = dt.date.today()
         if not link:
             return link, date
@@ -73,6 +76,7 @@ class SimpleSpider(scrapy.Spider):
 
         # First three links are the most recent ones.
         for rel_url, web_date in list(filter(lambda x: x[0], tag_iter))[0:3]:
+            self.logger.info(f"{name} parse {rel_url} {web_date}")
             if web_date <= up_date and not self.settings.getbool("FORCE"):
                 self.logger.info(f"{name} is up to date, exiting")
                 continue
