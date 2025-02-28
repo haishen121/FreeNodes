@@ -1,7 +1,7 @@
 {
   "clashmeta": {
     "start_url": "https://clash-meta.github.io/",
-    "up_date": "2025-02-27",
+    "up_date": "2025-02-28",
     "selector": "a[class='xcblog-blog-url']",
     "pattern": "https://[^<>\\r\\n]+/uploads/[^<>\\r\\n]+"
   },
