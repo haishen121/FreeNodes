@@ -19,19 +19,19 @@
   },
   "nodefree": {
     "start_url": "https://nodefree.org",
-    "up_date": "2025-03-23",
+    "up_date": "2025-03-24",
     "selector": "a[class='text-reset']",
     "pattern": "https://nodefree.githubrowcontent.com/[^<>\\r\\n]+"
   },
   "v2rayshare": {
     "start_url": "https://v2rayshare.com",
-    "up_date": "2025-03-23",
+    "up_date": "2025-03-24",
     "selector": "a[class='text-reset']",
     "pattern": "https://v2rayshare.githubrowcontent.com/[^<>\\r\\n]+"
   },
   "wenode": {
     "start_url": "https://wenode.cc/freenode",
-    "up_date": "2025-03-23",
+    "up_date": "2025-03-24",
     "selector": ".post_def_title a",
     "pattern": "https://wenode.githubrowcontent.com/[^<>\\r\\n]+"
   }
