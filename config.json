@@ -1,7 +1,7 @@
 {
   "clashmeta": {
     "start_url": "https://clash-meta.github.io/",
-    "up_date": "2025-03-31",
+    "up_date": "2025-04-02",
     "selector": "a[class='xcblog-blog-url']",
     "pattern": "https://[^<>\\r\\n]+/uploads/[^<>\\r\\n]+"
   },
@@ -19,7 +19,7 @@
   },
   "nodefree": {
     "start_url": "https://nodefree.org",
-    "up_date": "2025-04-02",
+    "up_date": "2025-04-03",
     "selector": "a[class='text-reset']",
     "pattern": "https://nodefree.githubrowcontent.com/[^<>\\r\\n]+"
   },
@@ -31,7 +31,7 @@
   },
   "wenode": {
     "start_url": "https://wenode.cc/freenode",
-    "up_date": "2025-04-02",
+    "up_date": "2025-04-03",
     "selector": ".post_def_title a",
     "pattern": "https://wenode.githubrowcontent.com/[^<>\\r\\n]+"
   }
