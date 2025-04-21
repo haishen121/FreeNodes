@@ -7,7 +7,7 @@
   },
   "ndnode": {
     "start_url": "https://www.naidounode.com",
-    "up_date": "2025-04-20",
+    "up_date": "2025-04-21",
     "selector": ".main.r_box ul li i a",
     "pattern": "https://www.naidounode.com/node/[^<>\\r\\n]+"
   },
@@ -31,7 +31,7 @@
   },
   "wenode": {
     "start_url": "https://wenode.cc/freenode",
-    "up_date": "2025-04-20",
+    "up_date": "2025-04-21",
     "selector": ".post_def_title a",
     "pattern": "https://wenode.githubrowcontent.com/[^<>\\r\\n]+"
   }
