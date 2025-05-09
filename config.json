@@ -13,13 +13,13 @@
   },
   "nodev2ray": {
     "start_url": "https://nodev2ray.com",
-    "up_date": "2025-05-08",
+    "up_date": "2025-05-09",
     "selector": ".item-heading.pb-2 a",
     "pattern": "https://node.nodev2ray.com/uploads/[^<>\\r\\n]+"
   },
   "nodefree": {
     "start_url": "https://nodefree.org",
-    "up_date": "2025-05-08",
+    "up_date": "2025-05-09",
     "selector": "a[class='text-reset']",
     "pattern": "https://nodefree.githubrowcontent.com/[^<>\\r\\n]+"
   },
@@ -31,7 +31,7 @@
   },
   "wenode": {
     "start_url": "https://wenode.cc/freenode",
-    "up_date": "2025-05-08",
+    "up_date": "2025-05-09",
     "selector": ".post_def_title a",
     "pattern": "https://wenode.githubrowcontent.com/[^<>\\r\\n]+"
   }
