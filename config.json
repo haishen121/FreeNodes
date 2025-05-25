@@ -31,7 +31,7 @@
   },
   "wenode": {
     "start_url": "https://wenode.cc/freenode",
-    "up_date": "2025-05-24",
+    "up_date": "2025-05-25",
     "selector": ".post_def_title a",
     "pattern": "https://wenode.githubrowcontent.com/[^<>\\r\\n]+"
   }
