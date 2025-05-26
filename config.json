@@ -9,7 +9,7 @@
     "start_url": "https://www.naidounode.com",
     "up_date": "2025-05-02",
     "selector": ".main.r_box ul li i a",
-    "pattern": "https://www.naidounode.com/node/[^<>\\r\\n]+"
+    "pattern": "http://naidounode.cczzuu.top/node/[^<>\\r\\n]+"
   },
   "nodev2ray": {
     "start_url": "https://nodev2ray.com",
