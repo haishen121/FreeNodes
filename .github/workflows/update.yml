@@ -13,6 +13,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Checkout Tg Proxy
+        uses: actions/checkout@v4
+        with:
+          repository: hookzof/socks5_list
+          path: tgproxy
+
+      - name: Copy Tg Proxy
+        run: cp -f tgproxy/tg/* nodes/
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
