@@ -13,7 +13,7 @@
   },
   "nodev2ray": {
     "start_url": "https://nodev2ray.com",
-    "up_date": "2025-06-09",
+    "up_date": "2025-06-11",
     "selector": ".item-heading.pb-2 a",
     "pattern": "https://node.nodev2ray.com/uploads/[^<>\\r\\n]+"
   },
