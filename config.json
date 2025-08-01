@@ -19,7 +19,7 @@
   },
   "nodefree": {
     "start_url": "https://nodefree.org",
-    "up_date": "2025-07-31",
+    "up_date": "2025-08-01",
     "selector": "a[class='text-reset']",
     "pattern": "https://nodefree.githubrowcontent.com/[^<>\\r\\n]+"
   },
