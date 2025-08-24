@@ -8,8 +8,8 @@
   "ndnode": {
     "start_url": "https://www.naidounode.com",
     "up_date": "2025-05-02",
-    "selector": ".main.r_box ul li i a",
-    "pattern": "http://naidounode.cczzuu.top/node/[^<>\\r\\n]+"
+    "selector": "a[class='text-reset']",
+    "pattern": "https?://naidounode.cczzuu.top/node/[^<>\\r\\n]+"
   },
   "nodev2ray": {
     "start_url": "https://nodev2ray.com",
@@ -33,6 +33,6 @@
     "start_url": "https://wenode.cc/freenode",
     "up_date": "2025-07-17",
     "selector": ".post_def_title a",
-    "pattern": "https://wenode.githubrowcontent.com/[^<>\\r\\n]+"
+    "pattern": "https?://oneclash.githubrowcontent.com/[^<>\\r\\n]+"
   }
 }
