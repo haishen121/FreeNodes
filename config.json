@@ -7,7 +7,7 @@
   },
   "ndnode": {
     "start_url": "https://www.naidounode.com",
-    "up_date": "2025-05-02",
+    "up_date": "2025-08-24",
     "selector": "a[class='text-reset']",
     "pattern": "https?://naidounode.cczzuu.top/node/[^<>\\r\\n]+"
   },
@@ -31,7 +31,7 @@
   },
   "wenode": {
     "start_url": "https://wenode.cc/freenode",
-    "up_date": "2025-07-17",
+    "up_date": "2025-08-23",
     "selector": ".post_def_title a",
     "pattern": "https?://oneclash.githubrowcontent.com/[^<>\\r\\n]+"
   }
