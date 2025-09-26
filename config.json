@@ -7,7 +7,7 @@
   },
   "ndnode": {
     "start_url": "https://www.naidounode.com",
-    "up_date": "2025-09-25",
+    "up_date": "2025-09-26",
     "selector": "a[class='text-reset']",
     "pattern": "https?://naidounode.cczzuu.top/node/[^<>\\r\\n]+"
   },
@@ -25,7 +25,7 @@
   },
   "v2rayshare": {
     "start_url": "https://v2rayshare.com",
-    "up_date": "2025-09-25",
+    "up_date": "2025-09-26",
     "selector": "a[class='text-reset']",
     "pattern": "https://v2rayshare.githubrowcontent.com/[^<>\\r\\n]+"
   },
