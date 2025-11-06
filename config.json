@@ -7,7 +7,7 @@
   },
   "ndnode": {
     "start_url": "https://www.naidounode.com",
-    "up_date": "2025-11-05",
+    "up_date": "2025-11-06",
     "selector": "a[class='text-reset']",
     "pattern": "https?://naidounode.cczzuu.top/node/[^<>\\r\\n]+"
   },
@@ -19,7 +19,7 @@
   },
   "nodefree": {
     "start_url": "https://nodefree.org",
-    "up_date": "2025-11-05",
+    "up_date": "2025-11-06",
     "selector": "a[class='text-reset']",
     "pattern": "https://nodefree.githubrowcontent.com/[^<>\\r\\n]+"
   },
