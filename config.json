@@ -25,7 +25,7 @@
   },
   "v2rayshare": {
     "start_url": "https://v2rayshare.com",
-    "up_date": "2025-11-18",
+    "up_date": "2025-11-19",
     "selector": "a[class='text-reset']",
     "pattern": "https://v2rayshare.githubrowcontent.com/[^<>\\r\\n]+"
   },
