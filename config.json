@@ -13,7 +13,7 @@
   },
   "nodev2ray": {
     "start_url": "https://nodev2ray.com",
-    "up_date": "2025-11-30",
+    "up_date": "2025-12-01",
     "selector": ".item-heading.pb-2 a",
     "pattern": "https://node.nodev2ray.com/uploads/[^<>\\r\\n]+"
   },
@@ -31,7 +31,7 @@
   },
   "wenode": {
     "start_url": "https://wenode.cc/freenode",
-    "up_date": "2025-11-30",
+    "up_date": "2025-12-01",
     "selector": ".post_def_title a",
     "pattern": "https?://oneclash.githubrowcontent.com/[^<>\\r\\n]+"
   }
