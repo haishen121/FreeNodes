@@ -7,7 +7,7 @@
   },
   "ndnode": {
     "start_url": "https://www.naidounode.com",
-    "up_date": "2026-02-04",
+    "up_date": "2026-02-05",
     "selector": "a[class='text-reset']",
     "pattern": "https?://naidounode.cczzuu.top/node/[^<>\\r\\n]+"
   },
