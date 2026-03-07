@@ -18,21 +18,21 @@
     "pattern": "https://node.nodev2ray.com/uploads/[^<>\\r\\n]+"
   },
   "nodefree": {
-    "start_url": "https://nodefree.org",
-    "up_date": "2026-01-19",
+    "start_url": "https://nodefree.me",
+    "up_date": "2026-03-02",
     "selector": "a[class='text-reset']",
-    "pattern": "https://nodefree.githubrowcontent.com/[^<>\\r\\n]+"
+    "pattern": "https?://node.nodefree.me/[^<>\\r\\n]+"
   },
   "v2rayshare": {
-    "start_url": "https://v2rayshare.com",
-    "up_date": "2026-01-20",
+    "start_url": "https://v2rayshare.net/",
+    "up_date": "2026-03-02",
     "selector": "a[class='text-reset']",
-    "pattern": "https://v2rayshare.githubrowcontent.com/[^<>\\r\\n]+"
+    "pattern": "https?://static.v2rayshare.net/[^<>\\r\\n]+"
   },
   "wenode": {
-    "start_url": "https://wenode.cc/freenode",
-    "up_date": "2026-01-20",
-    "selector": ".post_def_title a",
-    "pattern": "https?://oneclash.githubrowcontent.com/[^<>\\r\\n]+"
+    "start_url": "https://wenode.cc/",
+    "up_date": "2026-03-02",
+    "selector": "a[class='post_def_left']",
+    "pattern": "https?://oss.oneclash.cc/[^<>\\r\\n]+"
   }
 }
