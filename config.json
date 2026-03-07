@@ -19,19 +19,19 @@
   },
   "nodefree": {
     "start_url": "https://nodefree.me",
-    "up_date": "2026-03-02",
+    "up_date": "2026-03-05",
     "selector": "a[class='text-reset']",
     "pattern": "https?://node.nodefree.me/[^<>\\r\\n]+"
   },
   "v2rayshare": {
     "start_url": "https://v2rayshare.net/",
-    "up_date": "2026-03-02",
+    "up_date": "2026-03-07",
     "selector": "a[class='text-reset']",
     "pattern": "https?://static.v2rayshare.net/[^<>\\r\\n]+"
   },
   "wenode": {
     "start_url": "https://wenode.cc/",
-    "up_date": "2026-03-02",
+    "up_date": "2026-03-06",
     "selector": "a[class='post_def_left']",
     "pattern": "https?://oss.oneclash.cc/[^<>\\r\\n]+"
   }
