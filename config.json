@@ -19,7 +19,7 @@
   },
   "nodefree": {
     "start_url": "https://nodefree.me",
-    "up_date": "2026-03-06",
+    "up_date": "2026-03-07",
     "selector": "a[class='text-reset']",
     "pattern": "https?://node.nodefree.me/[^<>\\r\\n]+"
   },
