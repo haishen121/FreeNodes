@@ -19,7 +19,7 @@
   },
   "nodefree": {
     "start_url": "https://nodefree.me",
-    "up_date": "2026-03-13",
+    "up_date": "2026-03-14",
     "selector": "a[class='text-reset']",
     "pattern": "https?://node.nodefree.me/[^<>\\r\\n]+"
   },
@@ -31,7 +31,7 @@
   },
   "wenode": {
     "start_url": "https://wenode.cc/",
-    "up_date": "2026-03-13",
+    "up_date": "2026-03-14",
     "selector": "a[class='post_def_left']",
     "pattern": "https?://oss.oneclash.cc/[^<>\\r\\n]+"
   }
