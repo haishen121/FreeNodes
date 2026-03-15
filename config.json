@@ -31,7 +31,7 @@
   },
   "wenode": {
     "start_url": "https://wenode.cc/",
-    "up_date": "2026-03-14",
+    "up_date": "2026-03-15",
     "selector": "a[class='post_def_left']",
     "pattern": "https?://oss.oneclash.cc/[^<>\\r\\n]+"
   }
