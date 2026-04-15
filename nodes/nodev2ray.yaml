@@ -31,86 +31,86 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇭🇰 香港3|@stairnode
-  password: 187dda4498be9ac4f28db939d5940185
+  password: 868ecdaf6aed618ec98cf78585672b2b
   port: 52687
-  server: 43.199.200.208
+  server: 18.162.54.192
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇭🇰 香港4|@stairnode
   password: BxceQaOe
-  port: 39507
-  server: 18.162.243.187
+  port: 6313
+  server: 52.194.222.108
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 🇭🇰 香港5|@stairnode
   password: BxceQaOe
-  port: 4972
-  server: 95.40.86.174
+  port: 6313
+  server: 3.112.196.41
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 🇯🇵 日本|@stairnode
   password: BxceQaOe
-  port: 4746
-  server: 18.163.16.38
+  port: 3022
+  server: 52.194.222.108
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 🇯🇵 日本2|@stairnode
-  password: 187dda4498be9ac4f28db939d5940185
-  port: 9201
-  server: 13.231.242.181
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4937
+  server: 13.231.134.78
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇯🇵 日本3|@stairnode
-  password: 187dda4498be9ac4f28db939d5940185
+  password: 868ecdaf6aed618ec98cf78585672b2b
   port: 9201
-  server: 160.16.72.205
+  server: 43.207.115.26
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇸🇬 新加坡|@stairnode
-  password: 187dda4498be9ac4f28db939d5940185
+  password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4674
-  server: 18.181.196.7
+  server: 52.194.222.108
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇸🇬 新加坡2|@stairnode
-  password: 187dda4498be9ac4f28db939d5940185
+  password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4674
-  server: 18.177.145.165
+  server: 43.207.115.26
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇸🇬 新加坡3|@stairnode
   password: BxceQaOe
-  port: 30726
-  server: 43.199.69.179
+  port: 25675
+  server: 16.162.119.43
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 🇺🇸 美国|@stairnode
-  password: 187dda4498be9ac4f28db939d5940185
+  password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4019
-  server: 57.180.7.56
+  server: 43.207.115.26
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇺🇸 美国2|@stairnode
-  password: 187dda4498be9ac4f28db939d5940185
+  password: 868ecdaf6aed618ec98cf78585672b2b
   port: 3057
-  server: 160.16.106.99
+  server: 13.231.134.78
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇺🇸 美国3|@stairnode
   password: BxceQaOe
-  port: 14919
-  server: 16.163.129.49
+  port: 23255
+  server: 16.162.122.123
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
