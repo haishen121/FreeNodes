@@ -48,7 +48,7 @@ class Pipeline:
         spider.logger.info(f"Pipeline processed {filename}")
 
         CONFIG.set(name, {"up_date": item["date"]})
-
+        CONFIG.save()
         return item
 
 
