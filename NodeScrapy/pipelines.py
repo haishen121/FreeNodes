@@ -23,7 +23,7 @@ class Pipeline:
             os.mkdir(self.folder)
 
     def close_spider(self, spider):
-        CONFIG.save()
+        pass
 
     def process_item(self, item, spider):
         if not isinstance(item, NodeItem):

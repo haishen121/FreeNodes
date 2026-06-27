@@ -1,5 +1,7 @@
 # Config.py
 
+from __future__ import annotations
+
 import json
 from threading import Lock
 from typing import TypedDict
