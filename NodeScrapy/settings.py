@@ -95,7 +95,7 @@ TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
 
 FORCE = False
-LOG_LEVEL = "INFO"
+LOG_LEVEL = "DEBUG"
 
 PRIMARY_FOLDER = "nodes"
 SECONDARY_FOLDER = "nodes2"
