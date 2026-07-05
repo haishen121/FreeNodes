@@ -33,7 +33,7 @@ console_format = logging.Formatter('%(message)s')
 console_handler.setFormatter(console_format)
 
 # File handler
-file_handler = logging.FileHandler('scrapy.log', encoding='utf-8')
+file_handler = logging.FileHandler('scrapy.log', mode='w', encoding='utf-8')
 file_handler.setLevel(logging.INFO)
 file_format = logging.Formatter('%(asctime)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 file_handler.setFormatter(file_format)
@@ -94,7 +94,7 @@ class SimpleSpiderRequests:
             if not config:
                 logger.info(f"ERROR: Configuration for '{name}' is missing or empty!")
             else:
-                logger.info(f"✓ Configuration for '{name}' is valid.")
+                logger.info(f"[OK] Configuration for '{name}' is valid.")
     
     def _find_links(self, name: str, text: str) -> List[Tuple[str, str]]:
         """Find links in text and return them with their extension."""
@@ -216,7 +216,7 @@ class SimpleSpiderRequests:
                             # Validate response
                             if len(node_response.text) < 100:
                                 if 'error' in node_response.text.lower():
-                                    logger.info(f"  ⚠ WARNING: Invalid content for {link}")
+                                    logger.info(f"  [WARN] Invalid content for {link}")
                                     continue
                             
                             # Save as .txt file
@@ -233,42 +233,55 @@ class SimpleSpiderRequests:
                                     txt_filepath = os.path.join("nodes", txt_filename)
                                     with open(txt_filepath, "w", encoding="utf-8") as f:
                                         f.write(content)
-                                    logger.info(f"  ✓ Saved {txt_filepath} ({len(content)} bytes)")
+                                    logger.info(f"  [OK] Saved {txt_filepath} ({len(content)} bytes)")
                                     txt_saved = True
                                 else:
-                                    logger.info(f"  ⚠ WARNING: TXT content too small for {name}, skipping")
+                                    logger.info(f"  [WARN] TXT content too small for {name}, skipping")
                             
                             # Try to save YAML
                             if ext == ".yaml":
                                 try:
-                                    # Handle encoding issues - clashmeta has emoji and special characters
-                                    yaml_text = node_response.text
+                                    # Use raw bytes for robust encoding handling
+                                    raw_bytes = node_response.content
                                     
-                                    # Method 1: Try direct parse first
+                                    # Try to decode with UTF-8 first (most common for YAML)
+                                    yaml_text = None
+                                    for enc in ['utf-8', 'utf-8-sig', 'latin-1']:
+                                        try:
+                                            yaml_text = raw_bytes.decode(enc)
+                                            break
+                                        except (UnicodeDecodeError, LookupError):
+                                            continue
+                                    
+                                    if yaml_text is None:
+                                        yaml_text = raw_bytes.decode('utf-8', errors='replace')
+                                    
+                                    # Method 1: Try direct parse
                                     try:
                                         data = yaml.safe_load(yaml_text)
-                                    except (yaml.YAMLError, UnicodeError):
-                                        # Method 2: Remove problematic characters
+                                    except yaml.YAMLError as e:
+                                        # Method 2: Only remove YAML-specific tags, keep content intact
                                         import re
-                                        # Keep only printable ASCII + basic whitespace
-                                        yaml_text = re.sub(r'[^\x20-\x7e\x0a\x0d\x09]', '', yaml_text)
-                                        
-                                        # Also remove YAML tags like !<str>
-                                        yaml_text = re.sub(r'!<\w+>\s*', '', yaml_text)
-                                        
-                                        data = yaml.safe_load(yaml_text)
+                                        yaml_text = re.sub(r'!<[^>]+>\s*', '', yaml_text)  # Remove !<tag>
+                                        yaml_text = re.sub(r'!!\S+\s*', '', yaml_text)     # Remove !!tag
+                                        try:
+                                            data = yaml.safe_load(yaml_text)
+                                        except yaml.YAMLError:
+                                            raise  # Re-raise to be caught by outer handler
                                     
                                     if isinstance(data, dict) and ('proxies' in data or 'proxy-groups' in data):
                                         yaml_filename = f"{name}.yaml"
                                         yaml_filepath = os.path.join("nodes", yaml_filename)
                                         with open(yaml_filepath, "w", encoding="utf-8") as f:
                                             yaml.safe_dump(data, f, default_flow_style=False, allow_unicode=True)
-                                        logger.info(f"  ✓ Saved {yaml_filepath}")
+                                        logger.info(f"  [OK] Saved {yaml_filepath}")
                                         yaml_saved = True
                                     else:
-                                        logger.info(f"  ⚠ WARNING: Invalid YAML structure for {name}, skipping")
+                                        logger.info(f"  [WARN] Invalid YAML structure for {name}, "
+                                                   f"type={type(data).__name__}, "
+                                                   f"keys={list(data.keys())[:5] if isinstance(data, dict) else 'N/A'}")
                                 except Exception as e:
-                                    logger.info(f"  ⚠ WARNING: Failed to parse YAML: {type(e).__name__}: {str(e)[:100]}")
+                                    logger.info(f"  [WARN] Failed to parse YAML: {type(e).__name__}: {str(e)[:100]}")
                             
                             # Also try to save the other format if not already saved
                             if ext == ".txt" and not yaml_saved:
@@ -283,7 +296,7 @@ class SimpleSpiderRequests:
                                         yaml_filepath = os.path.join("nodes", yaml_filename)
                                         with open(yaml_filepath, "w", encoding="utf-8") as f:
                                             yaml.safe_dump(data, f, default_flow_style=False, allow_unicode=True)
-                                        logger.info(f"  ✓ Saved {yaml_filepath} (converted from TXT)")
+                                        logger.info(f"  [OK] Saved {yaml_filepath} (converted from TXT)")
                                 except:
                                     pass  # It's OK if conversion fails
                             
@@ -305,7 +318,7 @@ class SimpleSpiderRequests:
                                             txt_filepath = os.path.join("nodes", txt_filename)
                                             with open(txt_filepath, "w", encoding="utf-8") as f:
                                                 f.write(txt_content)
-                                            logger.info(f"  ✓ Saved {txt_filepath} (converted from YAML)")
+                                            logger.info(f"  [OK] Saved {txt_filepath} (converted from YAML)")
                                 except:
                                     pass  # It's OK if conversion fails
                             
@@ -313,17 +326,17 @@ class SimpleSpiderRequests:
                                 success_count += 1
                                 
                         except requests.exceptions.Timeout:
-                            logger.info(f"  ✗ ERROR: Timeout downloading {link}")
+                            logger.info(f"  [ERR] Timeout downloading {link}")
                             continue
                         except Exception as e:
-                            logger.info(f"  ✗ ERROR: Failed to download {link}: {e}")
+                            logger.info(f"  [ERR] Failed to download {link}: {e}")
                             continue
                 
                 except requests.exceptions.Timeout:
-                    logger.info(f"  ✗ ERROR: Timeout accessing {blog_url} (5s limit)")
+                    logger.info(f"  [ERR] Timeout accessing {blog_url} (5s limit)")
                     continue
                 except requests.exceptions.RequestException as e:
-                    logger.info(f"  ✗ ERROR: Failed to access {blog_url}: {e}")
+                    logger.info(f"  [ERR] Failed to access {blog_url}: {e}")
                     continue
             
             if success_count > 0:
@@ -379,14 +392,33 @@ class SimpleSpiderRequests:
                         txt_filepath = os.path.join(folder, txt_filename)
                         with open(txt_filepath, "w", encoding="utf-8") as f:
                             f.write(content)
-                        logger.info(f"  ✓ Saved {txt_filepath} ({len(content)} bytes)")
+                        logger.info(f"  [OK] Saved {txt_filepath} ({len(content)} bytes)")
                         txt_saved = True
                     else:
-                        logger.info(f"  ⚠ WARNING: Content too small for {name}, skipping")
+                        logger.info(f"  [WARN] Content too small for {name}, skipping")
                 
                 elif ext == ".yaml":
                     try:
-                        data = yaml.safe_load(node_response.text)
+                        # Use raw bytes for robust encoding handling
+                        raw_bytes = node_response.content
+                        yaml_text = None
+                        for enc in ['utf-8', 'utf-8-sig', 'latin-1']:
+                            try:
+                                yaml_text = raw_bytes.decode(enc)
+                                break
+                            except (UnicodeDecodeError, LookupError):
+                                continue
+                        if yaml_text is None:
+                            yaml_text = raw_bytes.decode('utf-8', errors='replace')
+                        
+                        # Try direct parse, then remove YAML tags only if needed
+                        try:
+                            data = yaml.safe_load(yaml_text)
+                        except yaml.YAMLError:
+                            import re
+                            yaml_text = re.sub(r'!<[^>]+>\s*', '', yaml_text)
+                            yaml_text = re.sub(r'!!\S+\s*', '', yaml_text)
+                            data = yaml.safe_load(yaml_text)
                         
                         # Validate YAML structure
                         if isinstance(data, dict) and ('proxies' in data or 'proxy-groups' in data):
@@ -394,13 +426,13 @@ class SimpleSpiderRequests:
                             yaml_filepath = os.path.join(folder, yaml_filename)
                             with open(yaml_filepath, "w", encoding="utf-8") as f:
                                 yaml.safe_dump(data, f, default_flow_style=False, allow_unicode=True)
-                            logger.info(f"  ✓ Saved {yaml_filepath}")
+                            logger.info(f"  [OK] Saved {yaml_filepath}")
                             yaml_saved = True
                         else:
-                            logger.info(f"  ⚠ WARNING: Invalid YAML structure for {name}, skipping")
+                            logger.info(f"  [WARN] Invalid YAML structure for {name}, skipping")
                     
                     except yaml.YAMLError as e:
-                        logger.info(f"  ⚠ WARNING: Failed to parse YAML: {e}")
+                        logger.info(f"  [WARN] Failed to parse YAML: {e}")
                 
                 # Try to convert and save in the other format if not already saved
                 if ext == ".txt" and not yaml_saved:
@@ -415,7 +447,7 @@ class SimpleSpiderRequests:
                             yaml_filepath = os.path.join(folder, yaml_filename)
                             with open(yaml_filepath, "w", encoding="utf-8") as f:
                                 yaml.safe_dump(data, f, default_flow_style=False, allow_unicode=True)
-                            logger.info(f"  ✓ Saved {yaml_filepath} (converted from TXT)")
+                            logger.info(f"  [OK] Saved {yaml_filepath} (converted from TXT)")
                             yaml_saved = True
                     except:
                         pass  # It's OK if conversion fails
@@ -438,7 +470,7 @@ class SimpleSpiderRequests:
                                 txt_filepath = os.path.join(folder, txt_filename)
                                 with open(txt_filepath, "w", encoding="utf-8") as f:
                                     f.write(txt_content)
-                                logger.info(f"  ✓ Saved {txt_filepath} (converted from YAML)")
+                                logger.info(f"  [OK] Saved {txt_filepath} (converted from YAML)")
                                 txt_saved = True
                     except:
                         pass  # It's OK if conversion fails
@@ -454,7 +486,7 @@ class SimpleSpiderRequests:
                 if attempt < max_retries - 1:
                     time.sleep(2)
                 else:
-                    logger.info(f"  ✗ ERROR: Failed to download {link} after {max_retries} attempts")
+                    logger.info(f"  [ERR] Failed to download {link} after {max_retries} attempts")
                     return False
         
         return False
@@ -492,7 +524,7 @@ class SimpleSpiderRequests:
                         name = future_to_name[future]
                         try:
                             results[name] = future.result()
-                            status = "✓ Success" if results[name] else "✗ Failed"
+                            status = "[OK] Success" if results[name] else "[FAIL] Failed"
                             logger.info(f"Target completed: {name} [{status}]")
                         except Exception as e:
                             logger.error(f"Target {name} generated an exception: {e}")
@@ -514,7 +546,7 @@ class SimpleSpiderRequests:
         logger.info(f"Overall success rate: {success}/{total}")
         
         for name, result in results.items():
-            status = "✓ SUCCESS" if result else "✗ FAILED"
+            status = "[OK] SUCCESS" if result else "[FAIL] FAILED"
             logger.info(f"  {status}: {name}")
         
         return results
