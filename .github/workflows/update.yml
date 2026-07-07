@@ -30,6 +30,6 @@ jobs:
         uses: GuillaumeFalourd/git-commit-push@v1
         with:
           commit_message: "Regular update"
-          files: config.json nodes/*.txt nodes/*.yaml
+          files: config.json scrapy.log nodes/*.txt nodes/*.yaml
           force: 1
           empty: 1
