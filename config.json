@@ -19,13 +19,13 @@
   },
   "nodefree": {
     "start_url": "https://nodefree.me",
-    "up_date": "2026-07-17",
+    "up_date": "2026-07-18",
     "selector": "a[class='text-reset']",
     "pattern": "https?://node.nodefree.me/[^<>\\r\\n]+"
   },
   "v2rayshare": {
     "start_url": "https://v2rayshare.net/",
-    "up_date": "2026-07-17",
+    "up_date": "2026-07-18",
     "selector": "a[class='text-reset']",
     "pattern": "https?://static.v2rayshare.net/[^<>\\r\\n]+"
   },
