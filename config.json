@@ -1,7 +1,7 @@
 {
   "clashmeta": {
     "start_url": "https://clash-meta.github.io/",
-    "up_date": "2026-08-05",
+    "up_date": "2026-08-12",
     "selector": "a[class='xcblog-blog-url']",
     "pattern": "https://[^<>\\r\\n]+/uploads/[^<>\\r\\n]+"
   },
@@ -19,13 +19,13 @@
   },
   "nodefree": {
     "start_url": "https://nodefree.me",
-    "up_date": "2026-08-11",
+    "up_date": "2026-08-12",
     "selector": "a[class='text-reset']",
     "pattern": "https?://node.nodefree.me/[^<>\\r\\n]+"
   },
   "v2rayshare": {
     "start_url": "https://v2rayshare.net/",
-    "up_date": "2026-08-11",
+    "up_date": "2026-08-12",
     "selector": "a[class='text-reset']",
     "pattern": "https?://static.v2rayshare.net/[^<>\\r\\n]+"
   },
