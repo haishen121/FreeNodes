@@ -1,306 +1,207 @@
-2026-09-12 06:54:42 - Targets: ('clashmeta', 'ndnode', 'nodev2ray', 'nodefree', 'v2rayshare', 'wenode')
-2026-09-12 06:54:42 - Loaded config keys: ['clashmeta', 'ndnode', 'nodev2ray', 'nodefree', 'v2rayshare', 'wenode']
-2026-09-12 06:54:42 - [OK] Configuration for 'clashmeta' is valid.
-2026-09-12 06:54:42 - [OK] Configuration for 'ndnode' is valid.
-2026-09-12 06:54:42 - [OK] Configuration for 'nodev2ray' is valid.
-2026-09-12 06:54:42 - [OK] Configuration for 'nodefree' is valid.
-2026-09-12 06:54:42 - [OK] Configuration for 'v2rayshare' is valid.
-2026-09-12 06:54:42 - [OK] Configuration for 'wenode' is valid.
-2026-09-12 06:54:42 - 
+2026-09-12 11:59:07 - Targets: ('clashmeta', 'ndnode', 'nodev2ray', 'nodefree', 'v2rayshare', 'wenode')
+2026-09-12 11:59:07 - Loaded config keys: ['clashmeta', 'ndnode', 'nodev2ray', 'nodefree', 'v2rayshare', 'wenode']
+2026-09-12 11:59:07 - [OK] Configuration for 'clashmeta' is valid.
+2026-09-12 11:59:07 - [OK] Configuration for 'ndnode' is valid.
+2026-09-12 11:59:07 - [OK] Configuration for 'nodev2ray' is valid.
+2026-09-12 11:59:07 - [OK] Configuration for 'nodefree' is valid.
+2026-09-12 11:59:07 - [OK] Configuration for 'v2rayshare' is valid.
+2026-09-12 11:59:07 - [OK] Configuration for 'wenode' is valid.
+2026-09-12 11:59:07 - 
 ============================================================
-2026-09-12 06:54:42 - === Starting Crawl ===
-2026-09-12 06:54:42 - Max workers: 3
-2026-09-12 06:54:42 - ============================================================
-2026-09-12 06:54:42 - Running in concurrent mode with 3 workers...
-2026-09-12 06:54:42 - 
+2026-09-12 11:59:07 - === Starting Crawl ===
+2026-09-12 11:59:07 - Max workers: 3
+2026-09-12 11:59:07 - ============================================================
+2026-09-12 11:59:07 - Running in concurrent mode with 3 workers...
+2026-09-12 11:59:07 - 
 ============================================================
-2026-09-12 06:54:42 - clashmeta start
-2026-09-12 06:54:42 - ============================================================
-2026-09-12 06:54:42 - 
+2026-09-12 11:59:07 - 
 ============================================================
-2026-09-12 06:54:42 - ndnode start
-2026-09-12 06:54:42 - ============================================================
-2026-09-12 06:54:42 - 
+2026-09-12 11:59:07 - ndnode start
+2026-09-12 11:59:07 - ============================================================
+2026-09-12 11:59:07 - clashmeta start
+2026-09-12 11:59:07 - 
 ============================================================
-2026-09-12 06:54:42 - nodev2ray start
-2026-09-12 06:54:42 - ============================================================
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/latest-clash-meta-node-2026-9-9.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/latest-clash-meta-node-2026-9-9.htm on 2026-09-09
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/latest-clash-meta-node-2026-9-9.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/latest-clash-meta-node-2026-9-9.htm on 2026-09-09
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/2026-9-8-free-subscribe-node.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/2026-9-8-free-subscribe-node.htm on 2026-09-08
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/2026-9-8-free-subscribe-node.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/2026-9-8-free-subscribe-node.htm on 2026-09-08
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-9-7.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/clash-meta-node-github-2026-9-7.htm on 2026-09-07
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-9-7.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/clash-meta-node-github-2026-9-7.htm on 2026-09-07
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/2026-9-6-free-clash-meta-node.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/2026-9-6-free-clash-meta-node.htm on 2026-09-06
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/2026-9-6-free-clash-meta-node.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/2026-9-6-free-clash-meta-node.htm on 2026-09-06
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-9-5.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/clash-meta-node-github-2026-9-5.htm on 2026-09-05
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-9-5.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/clash-meta-node-github-2026-9-5.htm on 2026-09-05
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/2026-9-4-clash-meta-github.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/2026-9-4-clash-meta-github.htm on 2026-09-04
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/2026-9-4-clash-meta-github.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/2026-9-4-clash-meta-github.htm on 2026-09-04
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-9-3.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/clash-meta-node-github-2026-9-3.htm on 2026-09-03
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-9-3.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/clash-meta-node-github-2026-9-3.htm on 2026-09-03
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/2026-9-2-clash-meta-github.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/2026-9-2-clash-meta-github.htm on 2026-09-02
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/2026-9-2-clash-meta-github.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/2026-9-2-clash-meta-github.htm on 2026-09-02
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/node-share-links-2026-9-1.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/node-share-links-2026-9-1.htm on 2026-09-01
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/node-share-links-2026-9-1.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/node-share-links-2026-9-1.htm on 2026-09-01
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/clash-meta-windows-2026-8-31.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/clash-meta-windows-2026-8-31.htm on 2026-08-31
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/clash-meta-windows-2026-8-31.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/clash-meta-windows-2026-8-31.htm on 2026-08-31
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/2026-8-30-node-share.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/2026-8-30-node-share.htm on 2026-08-30
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/2026-8-30-node-share.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/2026-8-30-node-share.htm on 2026-08-30
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-8-29.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/clash-meta-node-github-2026-8-29.htm on 2026-08-29
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-8-29.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/clash-meta-node-github-2026-8-29.htm on 2026-08-29
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/2026-8-28-free-clash-meta-node.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/2026-8-28-free-clash-meta-node.htm on 2026-08-28
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/2026-8-28-free-clash-meta-node.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/2026-8-28-free-clash-meta-node.htm on 2026-08-28
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/free-node-subscribe-links-2026-8-27.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/free-node-subscribe-links-2026-8-27.htm on 2026-08-27
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/free-node-subscribe-links-2026-8-27.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/free-node-subscribe-links-2026-8-27.htm on 2026-08-27
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/2026-8-26-clash-meta-github.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/2026-8-26-clash-meta-github.htm on 2026-08-26
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/2026-8-26-clash-meta-github.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/2026-8-26-clash-meta-github.htm on 2026-08-26
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/clash-meta-windows-2026-8-25.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/clash-meta-windows-2026-8-25.htm on 2026-08-25
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/clash-meta-windows-2026-8-25.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/clash-meta-windows-2026-8-25.htm on 2026-08-25
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/2026-8-24-free-clash-meta-node.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/2026-8-24-free-clash-meta-node.htm on 2026-08-24
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/2026-8-24-free-clash-meta-node.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/2026-8-24-free-clash-meta-node.htm on 2026-08-24
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-8-23.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/clash-meta-node-github-2026-8-23.htm on 2026-08-23
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-8-23.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/clash-meta-node-github-2026-8-23.htm on 2026-08-23
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/2026-8-22-clash-meta-github.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/2026-8-22-clash-meta-github.htm on 2026-08-22
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/2026-8-22-clash-meta-github.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/2026-8-22-clash-meta-github.htm on 2026-08-22
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/node-share-links-2026-8-21.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/node-share-links-2026-8-21.htm on 2026-08-21
-2026-09-12 06:54:42 - clashmeta _parse_tag /free-nodes/node-share-links-2026-8-21.htm
-2026-09-12 06:54:42 - clashmeta found /free-nodes/node-share-links-2026-8-21.htm on 2026-08-21
-2026-09-12 06:54:42 - clashmeta latest date on website: 2026-09-09, configured up_date: 2026-09-09
-2026-09-12 06:54:42 - clashmeta is up to date, skipping (latest: 2026-09-09)
-2026-09-12 06:54:42 - 
+2026-09-12 11:59:07 - ============================================================
+2026-09-12 11:59:07 - nodev2ray start
+2026-09-12 11:59:07 - ============================================================
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/latest-clash-meta-node-2026-9-9.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/latest-clash-meta-node-2026-9-9.htm on 2026-09-09
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/latest-clash-meta-node-2026-9-9.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/latest-clash-meta-node-2026-9-9.htm on 2026-09-09
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/2026-9-8-free-subscribe-node.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/2026-9-8-free-subscribe-node.htm on 2026-09-08
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/2026-9-8-free-subscribe-node.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/2026-9-8-free-subscribe-node.htm on 2026-09-08
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-9-7.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/clash-meta-node-github-2026-9-7.htm on 2026-09-07
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-9-7.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/clash-meta-node-github-2026-9-7.htm on 2026-09-07
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/2026-9-6-free-clash-meta-node.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/2026-9-6-free-clash-meta-node.htm on 2026-09-06
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/2026-9-6-free-clash-meta-node.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/2026-9-6-free-clash-meta-node.htm on 2026-09-06
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-9-5.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/clash-meta-node-github-2026-9-5.htm on 2026-09-05
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-9-5.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/clash-meta-node-github-2026-9-5.htm on 2026-09-05
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/2026-9-4-clash-meta-github.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/2026-9-4-clash-meta-github.htm on 2026-09-04
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/2026-9-4-clash-meta-github.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/2026-9-4-clash-meta-github.htm on 2026-09-04
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-9-3.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/clash-meta-node-github-2026-9-3.htm on 2026-09-03
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-9-3.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/clash-meta-node-github-2026-9-3.htm on 2026-09-03
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/2026-9-2-clash-meta-github.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/2026-9-2-clash-meta-github.htm on 2026-09-02
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/2026-9-2-clash-meta-github.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/2026-9-2-clash-meta-github.htm on 2026-09-02
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/node-share-links-2026-9-1.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/node-share-links-2026-9-1.htm on 2026-09-01
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/node-share-links-2026-9-1.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/node-share-links-2026-9-1.htm on 2026-09-01
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/clash-meta-windows-2026-8-31.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/clash-meta-windows-2026-8-31.htm on 2026-08-31
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/clash-meta-windows-2026-8-31.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/clash-meta-windows-2026-8-31.htm on 2026-08-31
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/2026-8-30-node-share.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/2026-8-30-node-share.htm on 2026-08-30
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/2026-8-30-node-share.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/2026-8-30-node-share.htm on 2026-08-30
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-8-29.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/clash-meta-node-github-2026-8-29.htm on 2026-08-29
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-8-29.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/clash-meta-node-github-2026-8-29.htm on 2026-08-29
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/2026-8-28-free-clash-meta-node.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/2026-8-28-free-clash-meta-node.htm on 2026-08-28
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/2026-8-28-free-clash-meta-node.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/2026-8-28-free-clash-meta-node.htm on 2026-08-28
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/free-node-subscribe-links-2026-8-27.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/free-node-subscribe-links-2026-8-27.htm on 2026-08-27
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/free-node-subscribe-links-2026-8-27.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/free-node-subscribe-links-2026-8-27.htm on 2026-08-27
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/2026-8-26-clash-meta-github.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/2026-8-26-clash-meta-github.htm on 2026-08-26
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/2026-8-26-clash-meta-github.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/2026-8-26-clash-meta-github.htm on 2026-08-26
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/clash-meta-windows-2026-8-25.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/clash-meta-windows-2026-8-25.htm on 2026-08-25
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/clash-meta-windows-2026-8-25.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/clash-meta-windows-2026-8-25.htm on 2026-08-25
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/2026-8-24-free-clash-meta-node.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/2026-8-24-free-clash-meta-node.htm on 2026-08-24
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/2026-8-24-free-clash-meta-node.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/2026-8-24-free-clash-meta-node.htm on 2026-08-24
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-8-23.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/clash-meta-node-github-2026-8-23.htm on 2026-08-23
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/clash-meta-node-github-2026-8-23.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/clash-meta-node-github-2026-8-23.htm on 2026-08-23
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/2026-8-22-clash-meta-github.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/2026-8-22-clash-meta-github.htm on 2026-08-22
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/2026-8-22-clash-meta-github.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/2026-8-22-clash-meta-github.htm on 2026-08-22
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/node-share-links-2026-8-21.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/node-share-links-2026-8-21.htm on 2026-08-21
+2026-09-12 11:59:07 - clashmeta _parse_tag /free-nodes/node-share-links-2026-8-21.htm
+2026-09-12 11:59:07 - clashmeta found /free-nodes/node-share-links-2026-8-21.htm on 2026-08-21
+2026-09-12 11:59:07 - clashmeta latest date on website: 2026-09-09, configured up_date: 2026-09-09
+2026-09-12 11:59:07 - clashmeta is up to date, skipping (latest: 2026-09-09)
+2026-09-12 11:59:07 - 
 ============================================================
-2026-09-12 06:54:42 - nodefree start
-2026-09-12 06:54:42 - ============================================================
-2026-09-12 06:54:42 - Target completed: clashmeta [[OK] Success]
-2026-09-12 06:54:42 - ndnode ERROR: No matching tags found
-2026-09-12 06:54:42 - 
+2026-09-12 11:59:07 - nodefree start
+2026-09-12 11:59:07 - ============================================================
+2026-09-12 11:59:07 - Target completed: clashmeta [[OK] Success]
+2026-09-12 11:59:07 - ndnode ERROR: No matching tags found
+2026-09-12 11:59:07 - 
 ============================================================
-2026-09-12 06:54:42 - v2rayshare start
-2026-09-12 06:54:42 - ============================================================
-2026-09-12 06:54:42 - Target completed: ndnode [[FAIL] Failed]
-2026-09-12 06:54:42 - nodefree _parse_tag https://nodefree.me/p/3665.html
-2026-09-12 06:54:42 - nodefree found https://nodefree.me/p/3665.html on 2026-09-12
-2026-09-12 06:54:42 - nodefree _parse_tag https://nodefree.me/p/3666.html
-2026-09-12 06:54:42 - nodefree found https://nodefree.me/p/3666.html on 2026-09-11
-2026-09-12 06:54:42 - nodefree _parse_tag https://nodefree.me/p/3667.html
-2026-09-12 06:54:42 - nodefree found https://nodefree.me/p/3667.html on 2026-09-10
-2026-09-12 06:54:42 - nodefree _parse_tag https://nodefree.me/p/3668.html
-2026-09-12 06:54:42 - nodefree found https://nodefree.me/p/3668.html on 2026-09-09
-2026-09-12 06:54:42 - nodefree _parse_tag https://nodefree.me/p/3669.html
-2026-09-12 06:54:42 - nodefree found https://nodefree.me/p/3669.html on 2026-09-08
-2026-09-12 06:54:42 - nodefree _parse_tag https://nodefree.me/p/3670.html
-2026-09-12 06:54:42 - nodefree found https://nodefree.me/p/3670.html on 2026-09-07
-2026-09-12 06:54:42 - nodefree _parse_tag https://nodefree.me/p/3671.html
-2026-09-12 06:54:42 - nodefree found https://nodefree.me/p/3671.html on 2026-09-06
-2026-09-12 06:54:42 - nodefree _parse_tag https://nodefree.me/p/3672.html
-2026-09-12 06:54:42 - nodefree found https://nodefree.me/p/3672.html on 2026-09-05
-2026-09-12 06:54:42 - nodefree _parse_tag https://nodefree.me/p/3673.html
-2026-09-12 06:54:42 - nodefree found https://nodefree.me/p/3673.html on 2026-09-04
-2026-09-12 06:54:42 - nodefree _parse_tag https://nodefree.me/p/3674.html
-2026-09-12 06:54:42 - nodefree found https://nodefree.me/p/3674.html on 2026-09-03
-2026-09-12 06:54:42 - nodefree latest date on website: 2026-09-12, configured up_date: 2026-09-11
-2026-09-12 06:54:42 - nodefree has updates! Processing latest links...
-2026-09-12 06:54:42 - 
-nodefree processing https://nodefree.me/p/3665.html (2026-09-12)
-2026-09-12 06:54:42 - nodefree accessing https://nodefree.me/p/3665.html
-2026-09-12 06:54:42 - nodev2ray ERROR: No matching tags found
-2026-09-12 06:54:42 - 
+2026-09-12 11:59:07 - v2rayshare start
+2026-09-12 11:59:07 - ============================================================
+2026-09-12 11:59:07 - Target completed: ndnode [[FAIL] Failed]
+2026-09-12 11:59:08 - nodev2ray ERROR: No matching tags found
+2026-09-12 11:59:08 - 
 ============================================================
-2026-09-12 06:54:42 - wenode start
-2026-09-12 06:54:42 - ============================================================
-2026-09-12 06:54:42 - Target completed: nodev2ray [[FAIL] Failed]
-2026-09-12 06:54:42 - nodefree _find_links()
-2026-09-12 06:54:42 - nodefree found https://node.nodefree.me/2026/09/20260912.txt
-2026-09-12 06:54:42 - nodefree found https://node.nodefree.me/2026/09/20260912.yaml
-2026-09-12 06:54:42 - nodefree found https://node.nodefree.me/2026/09/m20260912.yaml
-2026-09-12 06:54:42 - v2rayshare _parse_tag https://v2rayshare.net/p/5068.html
-2026-09-12 06:54:42 - v2rayshare found https://v2rayshare.net/p/5068.html on 2026-09-12
-2026-09-12 06:54:42 - v2rayshare _parse_tag https://v2rayshare.net/p/5069.html
-2026-09-12 06:54:42 - v2rayshare found https://v2rayshare.net/p/5069.html on 2026-09-11
-2026-09-12 06:54:42 - v2rayshare _parse_tag https://v2rayshare.net/p/5070.html
-2026-09-12 06:54:42 - v2rayshare found https://v2rayshare.net/p/5070.html on 2026-09-10
-2026-09-12 06:54:42 - v2rayshare _parse_tag https://v2rayshare.net/p/5071.html
-2026-09-12 06:54:42 - v2rayshare found https://v2rayshare.net/p/5071.html on 2026-09-09
-2026-09-12 06:54:42 - v2rayshare _parse_tag https://v2rayshare.net/p/5072.html
-2026-09-12 06:54:42 - v2rayshare found https://v2rayshare.net/p/5072.html on 2026-09-08
-2026-09-12 06:54:42 - v2rayshare _parse_tag https://v2rayshare.net/p/5073.html
-2026-09-12 06:54:42 - v2rayshare found https://v2rayshare.net/p/5073.html on 2026-09-07
-2026-09-12 06:54:42 - v2rayshare _parse_tag https://v2rayshare.net/p/5074.html
-2026-09-12 06:54:42 - v2rayshare found https://v2rayshare.net/p/5074.html on 2026-09-06
-2026-09-12 06:54:42 - v2rayshare _parse_tag https://v2rayshare.net/p/5075.html
-2026-09-12 06:54:42 - v2rayshare found https://v2rayshare.net/p/5075.html on 2026-09-05
-2026-09-12 06:54:42 - v2rayshare _parse_tag https://v2rayshare.net/p/5076.html
-2026-09-12 06:54:42 - v2rayshare found https://v2rayshare.net/p/5076.html on 2026-09-04
-2026-09-12 06:54:42 - v2rayshare _parse_tag https://v2rayshare.net/p/5077.html
-2026-09-12 06:54:42 - v2rayshare found https://v2rayshare.net/p/5077.html on 2026-09-03
-2026-09-12 06:54:42 - v2rayshare latest date on website: 2026-09-12, configured up_date: 2026-09-11
-2026-09-12 06:54:42 - v2rayshare has updates! Processing latest links...
-2026-09-12 06:54:42 - 
-v2rayshare processing https://v2rayshare.net/p/5068.html (2026-09-12)
-2026-09-12 06:54:42 - v2rayshare accessing https://v2rayshare.net/p/5068.html
-2026-09-12 06:54:43 - v2rayshare _find_links()
-2026-09-12 06:54:43 - v2rayshare found https://static.v2rayshare.net/2026/09/20260912.txt
-2026-09-12 06:54:43 - v2rayshare found https://static.v2rayshare.net/2026/09/20260912.yaml
-2026-09-12 06:54:43 - v2rayshare found https://static.v2rayshare.net/2026/09/m20260912.yaml
-2026-09-12 06:54:43 -   [OK] Saved nodes/nodefree.txt (6181 bytes)
-2026-09-12 06:54:43 - wenode _parse_tag https://oneclash.cc/a/3297.html
-2026-09-12 06:54:43 - wenode found https://oneclash.cc/a/3297.html on 2026-09-12
-2026-09-12 06:54:43 - wenode _parse_tag https://oneclash.cc/a/3298.html
-2026-09-12 06:54:43 - wenode found https://oneclash.cc/a/3298.html on 2026-09-11
-2026-09-12 06:54:43 - wenode _parse_tag https://oneclash.cc/a/3299.html
-2026-09-12 06:54:43 - wenode found https://oneclash.cc/a/3299.html on 2026-09-10
-2026-09-12 06:54:43 - wenode _parse_tag https://oneclash.cc/a/3300.html
-2026-09-12 06:54:43 - wenode found https://oneclash.cc/a/3300.html on 2026-09-09
-2026-09-12 06:54:43 - wenode _parse_tag https://oneclash.cc/a/3301.html
-2026-09-12 06:54:43 - wenode found https://oneclash.cc/a/3301.html on 2026-09-08
-2026-09-12 06:54:43 - wenode _parse_tag https://oneclash.cc/a/3302.html
-2026-09-12 06:54:43 - wenode found https://oneclash.cc/a/3302.html on 2026-09-07
-2026-09-12 06:54:43 - wenode _parse_tag https://oneclash.cc/a/3303.html
-2026-09-12 06:54:43 - wenode found https://oneclash.cc/a/3303.html on 2026-09-06
-2026-09-12 06:54:43 - wenode _parse_tag https://oneclash.cc/a/3304.html
-2026-09-12 06:54:43 - wenode found https://oneclash.cc/a/3304.html on 2026-09-05
-2026-09-12 06:54:43 - wenode _parse_tag https://oneclash.cc/a/3305.html
-2026-09-12 06:54:43 - wenode found https://oneclash.cc/a/3305.html on 2026-09-04
-2026-09-12 06:54:43 - wenode _parse_tag https://oneclash.cc/a/3306.html
-2026-09-12 06:54:43 - wenode found https://oneclash.cc/a/3306.html on 2026-09-03
-2026-09-12 06:54:43 - wenode latest date on website: 2026-09-12, configured up_date: 2026-09-11
-2026-09-12 06:54:43 - wenode has updates! Processing latest links...
-2026-09-12 06:54:43 - 
-wenode processing https://oneclash.cc/a/3297.html (2026-09-12)
-2026-09-12 06:54:43 - wenode accessing https://oneclash.cc/a/3297.html
-2026-09-12 06:54:43 - wenode _find_links()
-2026-09-12 06:54:43 - wenode could not parse https://oss.oneclash.cc/2026/09/20260912.txt..."/, skipping
-2026-09-12 06:54:43 - wenode found https://oss.oneclash.cc/2026/09/20260912.txt
-2026-09-12 06:54:43 - wenode found https://oss.oneclash.cc/2026/09/20260912.yaml
-2026-09-12 06:54:43 - wenode found https://oss.oneclash.cc/2026/09/m20260912.yaml
-2026-09-12 06:54:43 -   [OK] Saved nodes/nodefree.yaml
-2026-09-12 06:54:43 -   [OK] Saved nodes/v2rayshare.txt (6181 bytes)
-2026-09-12 06:54:43 -   [OK] Saved nodes/nodefree.yaml
-2026-09-12 06:54:43 - 
-nodefree processing https://nodefree.me/p/3666.html (2026-09-11)
-2026-09-12 06:54:43 - nodefree accessing https://nodefree.me/p/3666.html
-2026-09-12 06:54:43 -   [OK] Saved nodes/wenode.txt (6181 bytes)
-2026-09-12 06:54:43 - nodefree _find_links()
-2026-09-12 06:54:43 - nodefree found https://node.nodefree.me/2026/09/20260911.txt
-2026-09-12 06:54:43 - nodefree found https://node.nodefree.me/2026/09/20260911.yaml
-2026-09-12 06:54:43 - nodefree found https://node.nodefree.me/2026/09/m20260911.yaml
-2026-09-12 06:54:43 -   [OK] Saved nodes/v2rayshare.yaml
-2026-09-12 06:54:44 -   [OK] Saved nodes/wenode.yaml
-2026-09-12 06:54:44 -   [OK] Saved nodes/nodefree.txt (6181 bytes)
-2026-09-12 06:54:44 -   [OK] Saved nodes/v2rayshare.yaml
-2026-09-12 06:54:44 - 
-v2rayshare processing https://v2rayshare.net/p/5069.html (2026-09-11)
-2026-09-12 06:54:44 - v2rayshare accessing https://v2rayshare.net/p/5069.html
-2026-09-12 06:54:44 -   [OK] Saved nodes/wenode.yaml
-2026-09-12 06:54:44 - 
-wenode processing https://oneclash.cc/a/3298.html (2026-09-11)
-2026-09-12 06:54:44 - wenode accessing https://oneclash.cc/a/3298.html
-2026-09-12 06:54:44 -   [OK] Saved nodes/nodefree.yaml
-2026-09-12 06:54:44 - v2rayshare _find_links()
-2026-09-12 06:54:44 - v2rayshare found https://static.v2rayshare.net/2026/09/20260911.txt
-2026-09-12 06:54:44 - v2rayshare found https://static.v2rayshare.net/2026/09/20260911.yaml
-2026-09-12 06:54:44 - v2rayshare found https://static.v2rayshare.net/2026/09/m20260911.yaml
-2026-09-12 06:54:44 - wenode _find_links()
-2026-09-12 06:54:44 - wenode could not parse https://oss.oneclash.cc/2026/09/20260911.txt..."/, skipping
-2026-09-12 06:54:44 - wenode found https://oss.oneclash.cc/2026/09/20260911.txt
-2026-09-12 06:54:44 - wenode found https://oss.oneclash.cc/2026/09/20260911.yaml
-2026-09-12 06:54:44 - wenode found https://oss.oneclash.cc/2026/09/m20260911.yaml
-2026-09-12 06:54:44 -   [OK] Saved nodes/nodefree.yaml
-2026-09-12 06:54:44 - 
-nodefree processing https://nodefree.me/p/3667.html (2026-09-10)
-2026-09-12 06:54:44 - nodefree accessing https://nodefree.me/p/3667.html
-2026-09-12 06:54:44 -   [OK] Saved nodes/v2rayshare.txt (6181 bytes)
-2026-09-12 06:54:44 -   [OK] Saved nodes/wenode.txt (6181 bytes)
-2026-09-12 06:54:44 - nodefree _find_links()
-2026-09-12 06:54:44 - nodefree found https://node.nodefree.me/2026/09/20260910.txt
-2026-09-12 06:54:44 - nodefree found https://node.nodefree.me/2026/09/20260910.yaml
-2026-09-12 06:54:44 - nodefree found https://node.nodefree.me/2026/09/m20260910.yaml
-2026-09-12 06:54:44 -   [OK] Saved nodes/nodefree.txt (6181 bytes)
-2026-09-12 06:54:44 -   [OK] Saved nodes/wenode.yaml
-2026-09-12 06:54:44 -   [OK] Saved nodes/v2rayshare.yaml
-2026-09-12 06:54:45 -   [OK] Saved nodes/nodefree.yaml
-2026-09-12 06:54:45 -   [OK] Saved nodes/wenode.yaml
-2026-09-12 06:54:45 - 
-wenode processing https://oneclash.cc/a/3299.html (2026-09-10)
-2026-09-12 06:54:45 - wenode accessing https://oneclash.cc/a/3299.html
-2026-09-12 06:54:45 -   [OK] Saved nodes/v2rayshare.yaml
-2026-09-12 06:54:45 - 
-v2rayshare processing https://v2rayshare.net/p/5070.html (2026-09-10)
-2026-09-12 06:54:45 - v2rayshare accessing https://v2rayshare.net/p/5070.html
-2026-09-12 06:54:45 - wenode _find_links()
-2026-09-12 06:54:45 - wenode could not parse https://oss.oneclash.cc/2026/09/20260910.txt..."/, skipping
-2026-09-12 06:54:45 - wenode found https://oss.oneclash.cc/2026/09/20260910.txt
-2026-09-12 06:54:45 - wenode found https://oss.oneclash.cc/2026/09/20260910.yaml
-2026-09-12 06:54:45 - wenode found https://oss.oneclash.cc/2026/09/m20260910.yaml
-2026-09-12 06:54:45 - v2rayshare _find_links()
-2026-09-12 06:54:45 - v2rayshare found https://static.v2rayshare.net/2026/09/20260910.txt
-2026-09-12 06:54:45 - v2rayshare found https://static.v2rayshare.net/2026/09/20260910.yaml
-2026-09-12 06:54:45 - v2rayshare found https://static.v2rayshare.net/2026/09/m20260910.yaml
-2026-09-12 06:54:45 -   [OK] Saved nodes/nodefree.yaml
-2026-09-12 06:54:45 - 
-nodefree SUCCESS: Updated 9 files, config updated to 2026-09-12
-2026-09-12 06:54:45 - Target completed: nodefree [[OK] Success]
-2026-09-12 06:54:45 -   [OK] Saved nodes/wenode.txt (6181 bytes)
-2026-09-12 06:54:45 -   [OK] Saved nodes/v2rayshare.txt (6181 bytes)
-2026-09-12 06:54:45 -   [OK] Saved nodes/wenode.yaml
-2026-09-12 06:54:45 -   [OK] Saved nodes/v2rayshare.yaml
-2026-09-12 06:54:45 -   [OK] Saved nodes/wenode.yaml
-2026-09-12 06:54:45 - 
-wenode SUCCESS: Updated 9 files, config updated to 2026-09-12
-2026-09-12 06:54:45 - Target completed: wenode [[OK] Success]
-2026-09-12 06:54:46 -   [OK] Saved nodes/v2rayshare.yaml
-2026-09-12 06:54:46 - 
-v2rayshare SUCCESS: Updated 9 files, config updated to 2026-09-12
-2026-09-12 06:54:46 - Target completed: v2rayshare [[OK] Success]
-2026-09-12 06:54:46 - Session closed
-2026-09-12 06:54:46 - 
+2026-09-12 11:59:08 - wenode start
+2026-09-12 11:59:08 - ============================================================
+2026-09-12 11:59:08 - Target completed: nodev2ray [[FAIL] Failed]
+2026-09-12 11:59:08 - nodefree _parse_tag https://nodefree.me/p/3665.html
+2026-09-12 11:59:08 - nodefree found https://nodefree.me/p/3665.html on 2026-09-12
+2026-09-12 11:59:08 - nodefree _parse_tag https://nodefree.me/p/3666.html
+2026-09-12 11:59:08 - nodefree found https://nodefree.me/p/3666.html on 2026-09-11
+2026-09-12 11:59:08 - nodefree _parse_tag https://nodefree.me/p/3667.html
+2026-09-12 11:59:08 - nodefree found https://nodefree.me/p/3667.html on 2026-09-10
+2026-09-12 11:59:08 - nodefree _parse_tag https://nodefree.me/p/3668.html
+2026-09-12 11:59:08 - nodefree found https://nodefree.me/p/3668.html on 2026-09-09
+2026-09-12 11:59:08 - nodefree _parse_tag https://nodefree.me/p/3669.html
+2026-09-12 11:59:08 - nodefree found https://nodefree.me/p/3669.html on 2026-09-08
+2026-09-12 11:59:08 - nodefree _parse_tag https://nodefree.me/p/3670.html
+2026-09-12 11:59:08 - nodefree found https://nodefree.me/p/3670.html on 2026-09-07
+2026-09-12 11:59:08 - nodefree _parse_tag https://nodefree.me/p/3671.html
+2026-09-12 11:59:08 - nodefree found https://nodefree.me/p/3671.html on 2026-09-06
+2026-09-12 11:59:08 - nodefree _parse_tag https://nodefree.me/p/3672.html
+2026-09-12 11:59:08 - nodefree found https://nodefree.me/p/3672.html on 2026-09-05
+2026-09-12 11:59:08 - nodefree _parse_tag https://nodefree.me/p/3673.html
+2026-09-12 11:59:08 - nodefree found https://nodefree.me/p/3673.html on 2026-09-04
+2026-09-12 11:59:08 - nodefree _parse_tag https://nodefree.me/p/3674.html
+2026-09-12 11:59:08 - nodefree found https://nodefree.me/p/3674.html on 2026-09-03
+2026-09-12 11:59:08 - nodefree latest date on website: 2026-09-12, configured up_date: 2026-09-12
+2026-09-12 11:59:08 - nodefree is up to date, skipping (latest: 2026-09-12)
+2026-09-12 11:59:08 - Target completed: nodefree [[OK] Success]
+2026-09-12 11:59:08 - v2rayshare _parse_tag https://v2rayshare.net/p/5068.html
+2026-09-12 11:59:08 - v2rayshare found https://v2rayshare.net/p/5068.html on 2026-09-12
+2026-09-12 11:59:08 - v2rayshare _parse_tag https://v2rayshare.net/p/5069.html
+2026-09-12 11:59:08 - v2rayshare found https://v2rayshare.net/p/5069.html on 2026-09-11
+2026-09-12 11:59:08 - v2rayshare _parse_tag https://v2rayshare.net/p/5070.html
+2026-09-12 11:59:08 - v2rayshare found https://v2rayshare.net/p/5070.html on 2026-09-10
+2026-09-12 11:59:08 - v2rayshare _parse_tag https://v2rayshare.net/p/5071.html
+2026-09-12 11:59:08 - v2rayshare found https://v2rayshare.net/p/5071.html on 2026-09-09
+2026-09-12 11:59:08 - v2rayshare _parse_tag https://v2rayshare.net/p/5072.html
+2026-09-12 11:59:08 - v2rayshare found https://v2rayshare.net/p/5072.html on 2026-09-08
+2026-09-12 11:59:08 - v2rayshare _parse_tag https://v2rayshare.net/p/5073.html
+2026-09-12 11:59:08 - v2rayshare found https://v2rayshare.net/p/5073.html on 2026-09-07
+2026-09-12 11:59:08 - v2rayshare _parse_tag https://v2rayshare.net/p/5074.html
+2026-09-12 11:59:08 - v2rayshare found https://v2rayshare.net/p/5074.html on 2026-09-06
+2026-09-12 11:59:08 - v2rayshare _parse_tag https://v2rayshare.net/p/5075.html
+2026-09-12 11:59:08 - v2rayshare found https://v2rayshare.net/p/5075.html on 2026-09-05
+2026-09-12 11:59:08 - v2rayshare _parse_tag https://v2rayshare.net/p/5076.html
+2026-09-12 11:59:08 - v2rayshare found https://v2rayshare.net/p/5076.html on 2026-09-04
+2026-09-12 11:59:08 - v2rayshare _parse_tag https://v2rayshare.net/p/5077.html
+2026-09-12 11:59:08 - v2rayshare found https://v2rayshare.net/p/5077.html on 2026-09-03
+2026-09-12 11:59:08 - v2rayshare latest date on website: 2026-09-12, configured up_date: 2026-09-12
+2026-09-12 11:59:08 - v2rayshare is up to date, skipping (latest: 2026-09-12)
+2026-09-12 11:59:08 - Target completed: v2rayshare [[OK] Success]
+2026-09-12 11:59:08 - wenode _parse_tag https://oneclash.cc/a/3297.html
+2026-09-12 11:59:08 - wenode found https://oneclash.cc/a/3297.html on 2026-09-12
+2026-09-12 11:59:08 - wenode _parse_tag https://oneclash.cc/a/3298.html
+2026-09-12 11:59:08 - wenode found https://oneclash.cc/a/3298.html on 2026-09-11
+2026-09-12 11:59:08 - wenode _parse_tag https://oneclash.cc/a/3299.html
+2026-09-12 11:59:08 - wenode found https://oneclash.cc/a/3299.html on 2026-09-10
+2026-09-12 11:59:08 - wenode _parse_tag https://oneclash.cc/a/3300.html
+2026-09-12 11:59:08 - wenode found https://oneclash.cc/a/3300.html on 2026-09-09
+2026-09-12 11:59:08 - wenode _parse_tag https://oneclash.cc/a/3301.html
+2026-09-12 11:59:08 - wenode found https://oneclash.cc/a/3301.html on 2026-09-08
+2026-09-12 11:59:08 - wenode _parse_tag https://oneclash.cc/a/3302.html
+2026-09-12 11:59:08 - wenode found https://oneclash.cc/a/3302.html on 2026-09-07
+2026-09-12 11:59:08 - wenode _parse_tag https://oneclash.cc/a/3303.html
+2026-09-12 11:59:08 - wenode found https://oneclash.cc/a/3303.html on 2026-09-06
+2026-09-12 11:59:08 - wenode _parse_tag https://oneclash.cc/a/3304.html
+2026-09-12 11:59:08 - wenode found https://oneclash.cc/a/3304.html on 2026-09-05
+2026-09-12 11:59:08 - wenode _parse_tag https://oneclash.cc/a/3305.html
+2026-09-12 11:59:08 - wenode found https://oneclash.cc/a/3305.html on 2026-09-04
+2026-09-12 11:59:08 - wenode _parse_tag https://oneclash.cc/a/3306.html
+2026-09-12 11:59:08 - wenode found https://oneclash.cc/a/3306.html on 2026-09-03
+2026-09-12 11:59:08 - wenode latest date on website: 2026-09-12, configured up_date: 2026-09-12
+2026-09-12 11:59:08 - wenode is up to date, skipping (latest: 2026-09-12)
+2026-09-12 11:59:08 - Target completed: wenode [[OK] Success]
+2026-09-12 11:59:08 - Session closed
+2026-09-12 11:59:08 - 
 ============================================================
-2026-09-12 06:54:46 - === Crawl Complete ===
-2026-09-12 06:54:46 - ============================================================
-2026-09-12 06:54:46 - Time elapsed: 3.87 seconds
-2026-09-12 06:54:46 - Overall success rate: 4/6
-2026-09-12 06:54:46 -   [OK] SUCCESS: clashmeta
-2026-09-12 06:54:46 -   [FAIL] FAILED: ndnode
-2026-09-12 06:54:46 -   [FAIL] FAILED: nodev2ray
-2026-09-12 06:54:46 -   [OK] SUCCESS: nodefree
-2026-09-12 06:54:46 -   [OK] SUCCESS: wenode
-2026-09-12 06:54:46 -   [OK] SUCCESS: v2rayshare
+2026-09-12 11:59:08 - === Crawl Complete ===
+2026-09-12 11:59:08 - ============================================================
+2026-09-12 11:59:08 - Time elapsed: 1.19 seconds
+2026-09-12 11:59:08 - Overall success rate: 4/6
+2026-09-12 11:59:08 -   [OK] SUCCESS: clashmeta
+2026-09-12 11:59:08 -   [FAIL] FAILED: ndnode
+2026-09-12 11:59:08 -   [FAIL] FAILED: nodev2ray
+2026-09-12 11:59:08 -   [OK] SUCCESS: nodefree
+2026-09-12 11:59:08 -   [OK] SUCCESS: v2rayshare
+2026-09-12 11:59:08 -   [OK] SUCCESS: wenode
